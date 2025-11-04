@@ -1,8 +1,8 @@
-import Image from 'next/image'
-import about1Img from '../../../public/about-1.png'
-import about2Img from '../../../public/about-2.png'
-import { Check, MapPin } from 'lucide-react'
-import { WhatsappLogoIcon } from '@phosphor-icons/react/dist/ssr'
+import Image from 'next/image';
+import about1Img from '../../../public/about-1.png';
+import about2Img from '../../../public/about-2.png';
+import { Check, MapPin } from 'lucide-react';
+import { WhatsappLogoIcon } from '@phosphor-icons/react/dist/ssr';
 
 export function About() {
   return (
@@ -66,5 +66,5 @@ export function About() {
         </div>
       </div>
     </section>
-  )
+  );
 }

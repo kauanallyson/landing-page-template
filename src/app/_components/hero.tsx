@@ -1,7 +1,7 @@
-import { WhatsappLogoIcon } from '@phosphor-icons/react/dist/ssr'
-import dogImage from '../../../public/hero-dog.webp'
-import catImage from '../../../public/cat-hero.png'
-import Image from 'next/image'
+import { WhatsappLogoIcon } from '@phosphor-icons/react/dist/ssr';
+import dogImage from '../../../public/hero-dog.webp';
+import catImage from '../../../public/cat-hero.png';
+import Image from 'next/image';
 
 export function Hero() {
   return (
@@ -68,5 +68,5 @@ export function Hero() {
         </article>
       </div>
     </section>
-  )
+  );
 }
