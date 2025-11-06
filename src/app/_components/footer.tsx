@@ -22,7 +22,7 @@ const brands = [
 
 export function Footer() {
   return (
-    <section className="bg-[#E84C3D] py-8 text-white">
+    <section className="bg-[#E84C3D] py-8 text-white px-4">
       <div className="container mx-auto px-4">
         <div className="border-b border-white/20 pb-8">
           <h4 className="text-3xl font-semibold mb-8 text-center">

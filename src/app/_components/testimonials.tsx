@@ -43,7 +43,7 @@ export function Testimonials() {
   }
 
   return (
-    <section className="bg-[#FFD449] py-16">
+    <section className="bg-[#FFD449] py-16 px-4">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold mb-12 text-center">
           Depoimentos dos nossos clientes
