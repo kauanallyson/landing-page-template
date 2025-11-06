@@ -81,6 +81,7 @@ export function Services() {
             <div className="flex">
               {services.map((item, index) => (
                 <div
+                  data-aos="flip-up"
                   key={index}
                   className="flex-[0_0_100%] min-w-0 md:flex-[0_0_calc(100%/3)] px-3">
                   <article className="bg-[#1E293B] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col">
@@ -105,8 +106,11 @@ export function Services() {
                         <span>{item.duration}</span>
                       </div>
                       <a
-                        href="#"
-                        className="flex items-center justify-center gap-2 hover:bg-red-500 px-4 py-1 rounded-md duration-300">
+                        data-aos="zoom-in"
+                        data-aos-delay="300"
+                        target="_blank"
+                        href={`https://wa.me/5588993831736/?text=Olá vim pelo site e gostaria de mais detalhes do serviço: ${item.title}`}
+                        className="flex items-center justify-center gap-2 hover:bg-red-500 duration-300 px-4 py-1 rounded-md ">
                         <WhatsappLogoIcon className="h-5 w-5" />
                         Entrar em contato
                       </a>

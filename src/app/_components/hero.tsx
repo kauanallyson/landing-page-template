@@ -19,23 +19,33 @@ export function Hero() {
       <div className="container mx-auto pt-16 pb-16 md:pb-0 px-4 relative">
         <article className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="space-y-6">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10">
+            <h1
+              data-aos="fade-down"
+              className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10">
               Seu Pet merece todo o cuidado e atenção!
             </h1>
 
-            <p className="lg:text-lg">
-              Teu cachorro precisa de banho também meu patrão!
+            <p
+              data-aos="fade-right"
+              className="lg:text-lg">
+              Serviço e qualidade é o nosso foco!
             </p>
 
             <a
-              href="#"
+              data-aos="fade-up"
+              data-aos-delay="500"
+              target="_blank"
+              href={`https://wa.me/5588993831736/?text=Olá vim pelo site e gostaria de mais detalhes`}
               className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2">
               <WhatsappLogoIcon className="w-5 h-5" />
               Contato via WhatsApp
             </a>
 
             <div className="mt-8">
-              <p className="text-sm mb-4">
+              <p
+                data-aos="fade-up"
+                data-aos-delay="500"
+                className="text-sm mb-4">
                 <b className="bg-black text-white px-2 py-1 mr-1 rounded-md">
                   5%
                 </b>
@@ -44,7 +54,10 @@ export function Hero() {
             </div>
 
             <div className="flex mt-4">
-              <div className="w-32 hidden md:block">
+              <div
+                data-aos="zoom-in-up"
+                data-aos-delay="400"
+                className="w-32 hidden md:block pb-2">
                 <Image
                   src={catImage}
                   alt="foto do gato"
@@ -54,7 +67,10 @@ export function Hero() {
               </div>
             </div>
           </div>
-          <div className="hidden md:block h-full relative">
+          <div
+            data-aos="fade-up-left"
+            data-aos-delay="300"
+            className="hidden md:block h-full relative">
             <Image
               src={dogImage}
               alt="foto do dog"

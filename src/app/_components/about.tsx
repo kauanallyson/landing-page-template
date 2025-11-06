@@ -9,11 +9,14 @@ export function About() {
     <section className="bg-[#FDF6EC] py-16">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          <div className="relative">
+          <div
+            data-aos="flip-down"
+            data-aos-delay="500"
+            className="relative">
             <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
               <Image
                 src={about1Img}
-                alt="imagem 1 dog about"
+                alt="imagem 1 dog"
                 fill
                 quality={100}
                 className="object-cover hover:scale-110 duration-300"
@@ -24,16 +27,19 @@ export function About() {
             <div className="absolute w-40 h-40 right-4 -bottom-8 border-4 border-white rounded-lg overflow-hidden">
               <Image
                 src={about2Img}
-                alt="imagem 2 dog about"
+                alt="imagem gato"
                 fill
                 quality={100}
                 priority
               />
             </div>
           </div>
-          <div className="space-y-6 mt-10">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="500"
+            className="space-y-6 mt-10">
             <h2 className="text-4xl font-bold">SOBRE</h2>
-            <p> DESCRIÇÃO DO PETSHOP AQUI</p>
+            <p>Melhor petshop da cidade!</p>
             <ul className="space-y-4">
               <li className="flex items-center gap-2">
                 <Check className="text-red-500" />
@@ -48,7 +54,10 @@ export function About() {
                 Preços que cabem no seu bolso!
               </li>
             </ul>
-            <div className="flex gap-2 ">
+            <div
+              data-aos="fade-left"
+              data-aos-delay="500"
+              className="flex gap-2">
               <a
                 href="#"
                 className="bg-[#E84C3D] font-semibold text-white flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md">
